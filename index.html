@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мобильное меню</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <button
+          class="menu-hidden js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="20" height="12">
+            <use href="./burger_menu.svg#burger"></use>
+          </svg>
+        </button>
+
+        <ul class="menu">
+          <li class="menu-item"><a href="" class="link">Home</a></li>
+          <li class="menu-item"><a href="" class="link">About us</a></li>
+          <li class="menu-item"><a href="" class="link">How it’s made?</a></li>
+          <li class="menu-item"><a href="" class="link">Our products</a></li>
+          <li class="menu-item"><a href="" class="link">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          possimus doloribus modi numquam quaerat reprehenderit, necessitatibus
+          consectetur corrupti recusandae consequatur ut dolor odio itaque iusto
+          beatae? Quaerat minima sint laborum ex, est eos quidem, quisquam,
+          magnam sed quos voluptatum. Pariatur veritatis quam neque aliquid quis
+          quod est deserunt tempora assumenda veniam modi, voluptatem temporibus
+          ab repellendus excepturi. Dolore architecto, sit molestias animi et
+          pariatur dolorem voluptatum nam laudantium veniam consectetur ratione
+          quod suscipit inventore dicta illum cum non. Fugit nobis recusandae
+          rerum! Recusandae ab maiores eveniet at laborum delectus iure. Nisi
+          commodi quam iusto, omnis quasi corporis incidunt perferendis, vel
+          voluptatem, rem eligendi! Ea pariatur voluptas odio consectetur non
+          blanditiis nam iure voluptate veniam cupiditate modi molestias quas
+          temporibus quo facilis, consequatur natus officiis sit accusamus
+          exercitationem placeat itaque. Placeat, non sed consequuntur quia modi
+          inventore a nemo recusandae officia, maxime accusamus eligendi id
+          mollitia quibusdam cumque? Cupiditate nam iusto praesentium
+          exercitationem doloremque provident, quidem, dolor vero totam dolores
+          veritatis fugiat. Ipsam omnis sapiente, voluptates consectetur earum
+          dolorum est enim natus aliquid aliquam reprehenderit mollitia tempore,
+          eius sunt, velit laudantium fugiat! Eaque tenetur voluptatum ipsa
+          voluptas harum tempora corporis. Corrupti cumque delectus aperiam
+          beatae et sequi at, assumenda odit minima!
+        </p>
+      </div>
+    </main>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-hidden js-close-menu">
+        <svg width="14" height="14">
+          <use href="./burger_menu.svg#close"></use>
+        </svg>
+      </button>
+      <button type="button" class="btn"> <span class="btn-item">Buy now</span>  <svg width="10" height="10" class="vector"><use href="./burger_menu.svg#vector"></use></svg></button>
+
+      <ul class="mobile-menu">
+        <li class="mobile-menu-item"><a href="" class="link">Home</a></li>
+        <li class="mobile-menu-item"><a href="" class="link">About us</a></li>
+        <li class="mobile-menu-item"><a href="" class="link">How it’s made?</a></li>
+        <li class="mobile-menu-item"><a href="" class="link">Our products</a></li>
+        <li class="mobile-menu-item"><a href="" class="link">Contact</a></li>
+      </ul>
+    </div>    
+    <script defer src="js/mobile-menu.js"></script>
+  </body>
+</html>
